@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Temp\ws-sts\aulajpamaven\src\main\java\aplicacao\Programa.java"/>
 			<item value="C:\Temp\ws-sts\aulajpa\src\aplicacao\Programa.java"/>
 		</list>
 		<list key="projectNameTemplate">

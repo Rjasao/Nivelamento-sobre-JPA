@@ -13,7 +13,7 @@ public class Programa {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("exemplo-jpa");
 		EntityManager em = emf.createEntityManager();
 		
-		Pessoa p = em.find(Pessoa.class, 2);
+		Pessoa p = em.find(Pessoa.class, 2);// recuperou do MySQL
 		em.getTransaction().begin();
 		em.remove(p); // Remove do MySQL
 		em.getTransaction().commit();
