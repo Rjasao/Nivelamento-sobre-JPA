@@ -17,7 +17,7 @@ public class Programa {
 		
 		Pessoa p = em.find(Pessoa.class, 5);//acessa dados
 		
-		System.out.println(p);
+		em.remove(p);
 		
 		em.getTransaction().commit();//concluir salvamento
 		
