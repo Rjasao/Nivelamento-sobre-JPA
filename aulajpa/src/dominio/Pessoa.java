@@ -2,12 +2,12 @@ package dominio;
 
 import java.io.Serializable;
 
-public class Pessoa implements Serializable{
+public class Pessoa implements Serializable { 
 	
 	private static final long serialVersionUID = 1L;
 	
-	private Integer id;
-	private String nome;
+	private Integer id; 
+	private String nome; 
 	private String email;
 	
 	public Pessoa() {
@@ -47,6 +47,4 @@ public class Pessoa implements Serializable{
 	public String toString() {
 		return "Pessoa [id=" + id + ", nome=" + nome + ", email=" + email + "]";
 	}
-
-	
 }

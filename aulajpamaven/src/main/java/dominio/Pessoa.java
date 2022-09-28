@@ -7,19 +7,17 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-
 @Entity
-public class Pessoa implements Serializable{
-	
-	
+public class Pessoa implements Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
 	private String email;
-	
+
 	public Pessoa() {
 	}
 
@@ -57,6 +55,4 @@ public class Pessoa implements Serializable{
 	public String toString() {
 		return "Pessoa [id=" + id + ", nome=" + nome + ", email=" + email + "]";
 	}
-
-	
 }

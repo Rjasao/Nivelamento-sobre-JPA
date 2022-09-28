@@ -2,8 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Temp\ws-sts\aulajpamaven\src\main\java\aplicacao\Programa.java"/>
-			<item value="C:\Temp\ws-sts\aulajpa\src\aplicacao\Programa.java"/>
+			<item value="C:\temp\ws-sts\aulajpa\src\aplicacao\Programa.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -45,7 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.educandoweb"/>
+			<item value="com.ecucandoweb"/>
 		</list>
 		<list key="name">
 		</list>
