@@ -14,11 +14,8 @@ public class Programa {
 		EntityManager em = emf.createEntityManager();
 		
 		em.getTransaction().begin();//inicial p savar no Bco de dados
-		
-		Pessoa p = em.find(Pessoa.class, 5);//acessa dados
-		
-		em.remove(p);
-		
+			Pessoa p = em.find(Pessoa.class, 5);//acessa dados
+			em.remove(p);
 		em.getTransaction().commit();//concluir salvamento
 		
 		System.out.println("Pronto");
